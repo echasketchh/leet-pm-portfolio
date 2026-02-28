@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Allow optimizing images from external domains when you add a real photo
+  images: {
+    remotePatterns: [],
+  },
 };
 
 export default nextConfig;
