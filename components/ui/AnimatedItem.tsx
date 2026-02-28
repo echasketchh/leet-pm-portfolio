@@ -6,7 +6,6 @@ import { fadeUp } from "@/lib/motion";
 interface AnimatedItemProps {
   children: React.ReactNode;
   className?: string;
-  variant?: "fadeUp" | "fadeIn" | "scaleIn";
 }
 
 export function AnimatedItem({ children, className = "" }: AnimatedItemProps) {

@@ -24,10 +24,9 @@ export function Contact() {
     reset,
   } = useForm<FormData>();
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async (_data: FormData) => {
     // TODO: Connect to your preferred form backend
     // e.g. Resend, Formspree, EmailJS, a Next.js API route, etc.
-    console.log("Form data:", data);
 
     // Simulate async submission
     await new Promise((r) => setTimeout(r, 800));
@@ -68,10 +67,10 @@ export function Contact() {
               <p className="text-sm text-[var(--muted)]">
                 Or reach me directly at{" "}
                 <a
-                  href="mailto:[your@email.com]"
+                  href="mailto:mechavarria1@gmail.com"
                   className="text-[var(--foreground)] underline underline-offset-4 hover:opacity-60 transition-opacity"
                 >
-                  [your@email.com]
+                  mechavarria1@gmail.com
                 </a>
               </p>
             </motion.div>
