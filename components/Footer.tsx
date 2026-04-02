@@ -6,23 +6,20 @@ export function Footer() {
   return (
     <footer className="border-t border-[var(--border)] py-8">
       <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[var(--muted)]">
-        <p>© {year} [Your Name]. All rights reserved.</p>
+        <p>© {year} Martin Echavarria. All rights reserved.</p>
         <div className="flex gap-6">
-          {/* Add your social links here */}
           <a
-            href="#"
+            href="https://linkedin.com/in/mechavarria1"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-[var(--foreground)] transition-colors"
           >
             LinkedIn
           </a>
           <a
-            href="#"
-            className="hover:text-[var(--foreground)] transition-colors"
-          >
-            Twitter / X
-          </a>
-          <a
-            href="#"
+            href="https://github.com/echasketchh"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-[var(--foreground)] transition-colors"
           >
             GitHub

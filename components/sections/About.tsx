@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 import { fadeUp, staggerContainer } from "@/lib/motion";
 
 export function About() {
@@ -28,8 +29,7 @@ export function About() {
                 About
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-[1.1]">
-                {/* Name placeholder */}
-                <span className="block">[Your Name]</span>
+                <span className="block">Martin Echavarria</span>
               </h1>
             </motion.div>
 
@@ -37,13 +37,11 @@ export function About() {
               variants={fadeUp}
               className="text-lg text-[var(--muted)] leading-relaxed max-w-md"
             >
-              {/* Bio placeholder */}
-              [Short bio — who you are, what you do, and what you care about.]
+              Product leader with 8+ years of experience across HealthTech, FinTech, and SaaS. I specialize in 0→1 builds, data-driven roadmaps, and cross-functional execution — from early-stage startups to large enterprises. Outside of work, I&apos;m usually biking, hiking, or organizing outdoor adventures.
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-wrap gap-3">
-              {/* Role tags placeholder */}
-              {["Product Manager", "Builder", "Consultant"].map((tag) => (
+              {["Product Manager", "HealthTech", "0→1 Builder", "Fractional PM"].map((tag) => (
                 <span
                   key={tag}
                   className="px-4 py-1.5 text-sm border border-[var(--border)] rounded-full text-[var(--muted)]"
@@ -77,14 +75,19 @@ export function About() {
             </motion.div>
           </div>
 
-          {/* Visual side — avatar placeholder */}
+          {/* Photo */}
           <motion.div
             variants={fadeUp}
             className="flex justify-center md:justify-end"
           >
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl bg-[var(--border)] flex items-center justify-center text-[var(--muted)] text-sm">
-              {/* Replace with <Image> when you have a photo */}
-              Photo
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden relative">
+              <Image
+                src="/headshot.jpg"
+                alt="Martin Echavarria"
+                fill
+                className="object-cover object-top"
+                priority
+              />
             </div>
           </motion.div>
         </motion.div>

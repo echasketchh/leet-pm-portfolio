@@ -47,7 +47,7 @@ export function Navbar() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="text-sm font-medium tracking-tight text-[var(--foreground)] hover:opacity-60 transition-opacity"
           >
-            ME
+            Martin Echavarria
           </button>
 
           {/* Desktop nav */}

@@ -59,8 +59,7 @@ export function Contact() {
               variants={fadeUp}
               className="text-[var(--muted)] leading-relaxed max-w-sm"
             >
-              [Short invite — whether it&apos;s a project, opportunity, or just
-              a conversation, reach out and I&apos;ll get back to you.]
+              Whether it&apos;s a product opportunity, a consulting engagement, or just a conversation — I&apos;d love to connect. I&apos;ll get back to you promptly.
             </motion.p>
 
             <motion.div variants={fadeUp} className="space-y-3 pt-2">

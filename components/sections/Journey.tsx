@@ -4,31 +4,55 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { fadeUp, staggerContainer } from "@/lib/motion";
 
-// Placeholder timeline items — replace with your real history
 const TIMELINE_ITEMS = [
   {
-    year: "20XX",
-    role: "[Role Title]",
-    company: "[Company or Organization]",
-    description: "[Brief description of what you did and the impact you made.]",
+    year: "2025",
+    role: "Head of Product (Fractional)",
+    company: "Arena Labs",
+    description:
+      "Joined early-stage B2B healthtech startup as fractional Head of Product. Built a data-backed case for a full product rebuild, increased activation 30% through onboarding improvements, improved NPS by 50% via a metrics framework, and avoided low-ROI investment through rapid experimentation.",
   },
   {
-    year: "20XX",
-    role: "[Role Title]",
-    company: "[Company or Organization]",
-    description: "[Brief description of what you did and the impact you made.]",
+    year: "2024",
+    role: "Senior Product Manager (Contract)",
+    company: "FortyAU · Notable clients: Navigating Care, 121 Health, Bloom Healthcare",
+    description:
+      "Led product strategy across multiple HealthTech engagements. Retained Navigating Care's largest customer (40–50% of ARR) through high-impact workflow improvements. Owned 0→1 delivery of a telehealth platform enabling secure care coordination for 220K+ patients. Avoided $5M+ in engineering investment through a structured third-party pilot.",
   },
   {
-    year: "20XX",
-    role: "[Role Title]",
-    company: "[Company or Organization]",
-    description: "[Brief description of what you did and the impact you made.]",
+    year: "2022",
+    role: "Product Manager",
+    company: "The Savings Group",
+    description:
+      "Owned product strategy for a FinTech auto financing marketplace. Increased conversion 4% and boosted revenue by $6M through data quality improvements. Reduced OPEX by $1M by migrating document generation in-house and increased per-transaction profit 2.5% via automated tax calculations.",
   },
   {
-    year: "20XX",
-    role: "[Education or Milestone]",
-    company: "[Institution or Context]",
-    description: "[Brief description of this chapter in your journey.]",
+    year: "2021",
+    role: "Product Management Consultant",
+    company: "Propeller Consulting · Clients: Ball Corporation, GAP",
+    description:
+      "Led enterprise digital transformation initiatives. Saved 2,900+ hours annually by automating financial planning for a $45M budget at Ball Corporation. Led identity resolution platform selection, forecasting $20M in potential revenue uplift for GAP.",
+  },
+  {
+    year: "2019",
+    role: "Product Management Consultant",
+    company: "Accenture · Client: Hewlett Packard Enterprise",
+    description:
+      "Delivered 0→1 digital case management and PSA platforms deployed to 3,000+ employees. Reduced ticket submission time 50% and saved $2.7M annually through a sales forecasting platform.",
+  },
+  {
+    year: "2016",
+    role: "Product Optimization Analyst",
+    company: "BASF",
+    description:
+      "Supported product strategy and cost optimization across engineering and commercial teams. Saved $500K by identifying production bottlenecks and launched 2 new products contributing to a 10% increase in market share.",
+  },
+  {
+    year: "Education",
+    role: "MBA, Business Administration & Entrepreneurship",
+    company: "University of Colorado · BS Chemical Engineering, University of Pittsburgh",
+    description:
+      "Certified Scrum Product Owner. Reforge Mastering Product Management alumnus.",
   },
 ];
 

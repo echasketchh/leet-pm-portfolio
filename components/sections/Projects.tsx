@@ -5,38 +5,37 @@ import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { fadeUp, staggerContainer } from "@/lib/motion";
 
-// Placeholder project cards — replace with your real projects
 const PROJECTS = [
   {
-    title: "[Project Name]",
-    category: "[Category / Type]",
+    title: "Arena Strive — Clinician Burnout Platform",
+    category: "HealthTech · 0→1 Rebuild",
     description:
-      "[One or two sentences describing what this project is, the problem it solves, and your role in it.]",
-    tags: ["Tag 1", "Tag 2", "Tag 3"],
+      "Led product strategy and a full rebuild of Arena Strive, a mobile app combining wearable data and 1:1 coaching to reduce clinician burnout. Shipped onboarding overhaul (+30% activation), implemented a metrics framework (+50% NPS), and designed a Mode 1/Mode 2 experience informed by research across 180+ clinical users.",
+    tags: ["Product Strategy", "Mobile", "HealthTech", "User Research"],
     href: "#",
   },
   {
-    title: "[Project Name]",
-    category: "[Category / Type]",
+    title: "Telehealth Platform — \"Slack for Healthcare\"",
+    category: "HealthTech · 0→1 Build",
     description:
-      "[One or two sentences describing what this project is, the problem it solves, and your role in it.]",
-    tags: ["Tag 1", "Tag 2"],
+      "Owned end-to-end product strategy and delivery of a HIPAA-compliant telehealth and secure messaging platform for 121 Health. Enabled care coordination for 220K+ patients by translating clinician insights into a prioritized roadmap and shipping a 0→1 product from discovery to launch.",
+    tags: ["0→1", "Telehealth", "Care Coordination", "HIPAA"],
     href: "#",
   },
   {
-    title: "[Project Name]",
-    category: "[Category / Type]",
+    title: "Navigating Care — Oncology Workflow Improvements",
+    category: "HealthTech · Enterprise SaaS",
     description:
-      "[One or two sentences describing what this project is, the problem it solves, and your role in it.]",
-    tags: ["Tag 1", "Tag 2", "Tag 3"],
+      "Retained Navigating Care's largest customer (40–50% of ARR) by leading a suite of high-impact workflow improvements: batch attachments for bulk patient messaging, provider reassignment, message previews, and performance enhancements. Also avoided $5M+ in engineering investment through a structured third-party pilot.",
+    tags: ["Oncology", "Stakeholder Management", "SaaS", "Cost Avoidance"],
     href: "#",
   },
   {
-    title: "[Project Name]",
-    category: "[Category / Type]",
+    title: "Auto Financing Marketplace — Data & Platform",
+    category: "FinTech · Platform Optimization",
     description:
-      "[One or two sentences describing what this project is, the problem it solves, and your role in it.]",
-    tags: ["Tag 1", "Tag 2"],
+      "At The Savings Group, improved vehicle and credit data quality to increase conversion 4% and boost revenue by $6M. Migrated document generation in-house (saving $1M OPEX) and implemented automated tax calculations that increased per-transaction profit by 2.5%.",
+    tags: ["FinTech", "Data Quality", "Experimentation", "Revenue Growth"],
     href: "#",
   },
 ];
